@@ -1,0 +1,42 @@
+[
+	{
+		"id": 1,
+		"title": "Mr",
+		"firstName": "John",
+		"surname": "Doe",
+		"email": "johndoe@example.com",
+		"roomId": 101,
+		"checkInDate": "2022-10-25",
+		"checkOutDate": "2022-10-30"
+	},
+	{
+		"id": 2,
+		"title": "Ms",
+		"firstName": "Jane",
+		"surname": "Smith",
+		"email": "janesmith@example.com",
+		"roomId": 102,
+		"checkInDate": "2024-11-20",
+		"checkOutDate": "2024-11-22"
+	},
+	{
+		"id": 3,
+		"title": "Miss",
+		"firstName": "April",
+		"surname": "Strawberry",
+		"email": "april@example.com",
+		"roomId": 103,
+		"checkInDate": "2024-9-20",
+		"checkOutDate": "2024-9-22"
+	},
+	{
+		"id": 4,
+		"title": "Mr",
+		"firstName": "Hamie",
+		"surname": "Star",
+		"email": "jamiestar@example.com",
+		"roomId": 104,
+		"checkInDate": "2024-10-20",
+		"checkOutDate": "2024-10-22"
+	}
+]
