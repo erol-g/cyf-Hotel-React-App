@@ -22,12 +22,16 @@ const TouristInfoCards = () => {
 	return (
 		<div className="d-flex justify-content-around my-4">
 			{cards.map((card, index) => (
-				<div key={index} className="card text-center" style={{ width: "15rem" }}>
-					<img src={card.img} className="card-img-top" alt={card.city} />
+				<div
+					key={index}
+					className="card text-center"
+					style={{ width: "15rem" }}
+				>
+					<img src={card.img} className="card-img-top p-2" alt={card.city} />
 					<div className="card-body">
 						<h5 className="card-title">{card.city}</h5>
 						<a href={card.link} className="btn btn-primary">
-							Go somewhere
+							Go {card.city}
 						</a>
 					</div>
 				</div>
